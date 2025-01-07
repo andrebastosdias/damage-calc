@@ -432,6 +432,13 @@ const SV: TypeChart = extend(true, {}, SS, {
 });
 
 export const TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+for (const typeChart of TYPE_CHART) {
+  for (const type in typeChart) {
+    for (const target in typeChart[type as I.TypeName]) {
+      typeChart[type as I.TypeName]![target as I.TypeName] = 1 / (typeChart[type as I.TypeName]![target as I.TypeName] || 0.5);
+    }
+  }
+}
 
 export class Types implements I.Types {
   private readonly gen: I.GenerationNum;

@@ -140,11 +140,7 @@ export function getMoveEffectiveness(
   isGravity?: boolean,
   isRingTarget?: boolean,
 ) {
-  if (isGhostRevealed && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
-    return 1;
-  } else if (isGravity && type === 'Flying' && move.hasType('Ground')) {
-    return 1;
-  } else if (move.named('Freeze-Dry') && type === 'Water') {
+  if (move.named('Freeze-Dry') && type === 'Water') {
     return 2;
   } else {
     let effectiveness = gen.types.get(toID(move.type))!.effectiveness[type]!;
