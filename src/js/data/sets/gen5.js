@@ -512,7 +512,7 @@ var SETDEX_BW = {
   },
   "Lampent": {
     "NU Trick Room": {"ability":"Flash Fire","item":"Life Orb","nature":"Quiet","ivs":{"sp":0},"evs":{"hp":248,"df":8,"sa":252},"moves":["Trick Room","Fire Blast","Shadow Ball","Energy Ball"]},
-    "ZU Calm Mind": {"ability":"Flash Fire","item":"Eviolite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Calm Mind","Substitute","Shadow Ball","Fire Blast"]},
+    "ZU Calm Mind": {"ability":"Flash Fire","item":"Leftovers","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Calm Mind","Substitute","Shadow Ball","Fire Blast"]},
     "ZU Choice Specs": {"ability":"Flash Fire","item":"Choice Specs","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Fire Blast","Energy Ball","Trick"]},
     "ZU Choice Scarf": {"ability":"Flash Fire","item":"Choice Scarf","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Shadow Ball","Trick","Energy Ball"]},
     "ZU Stallbreaker": {"ability":"Flash Fire","item":"Leftovers","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Shadow Ball","Calm Mind","Substitute"]}
@@ -1365,7 +1365,7 @@ var SETDEX_BW = {
     "RU Special Tank": {"ability":"Flash Fire","item":"Leftovers","nature":"Calm","evs":{"hp":252,"df":4,"sd":252},"moves":["Wish","Protect","Flamethrower","Toxic"]},
     "NU Wish": {"ability":"Flash Fire","item":"Leftovers","nature":"Calm","evs":{"hp":252,"sa":4,"sd":252},"moves":["Wish","Protect","Lava Plume","Heal Bell"]},
     "NU Guts": {"ability":"Guts","item":"Toxic Orb","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Facade","Superpower","Flame Charge","Bite"]},
-    "ZU All-Out Attacker": {"ability":"Flash Fire","item":"Expert Belt","nature":"Mild","ivs":{"df":30,"sa":30},"evs":{"at":4,"sa":252,"sp":252},"moves":["Fire Blast","Superpower","Shadow Ball","Hidden Power Grass"]},
+    "ZU All-out Attacker": {"ability":"Flash Fire","item":"Expert Belt","nature":"Mild","ivs":{"df":30,"sa":30},"evs":{"at":4,"sa":252,"sp":252},"moves":["Fire Blast","Superpower","Shadow Ball","Hidden Power Grass"]},
     "ZU Special Wall": {"ability":"Flash Fire","item":"Leftovers","nature":"Calm","evs":{"hp":248,"sd":252,"sp":8},"moves":["Wish","Protect","Lava Plume","Toxic"]},
     "PU Showdown Usage": {"ability":"Guts","item":"Toxic Orb","nature":"Jolly","evs":{"hp":4,"at":252,"sp":252},"moves":["Flame Charge","Facade","Superpower","Wish"]}
   },
